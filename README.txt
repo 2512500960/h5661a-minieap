@@ -17,8 +17,7 @@
 	刷入PandoraBox-ralink-mt7628-mt7628an-evb-squashfs-sysupgrade-r1752-20151201和hc5661a_eeprom.bin
 	等待重启。
 放入我编译好的minieap客户端二进制文件：
-	上述pandorabox刷好之后。默认root密码是admin，登录管理后台192.168.1.1，修改wan口的参数，手动获取地址。需要mac地址克隆以实际情况而定。也可以去
-微信网络中心服务平台解绑mac先。
+	上述pandorabox刷好之后。默认root密码是admin，登录管理后台192.168.1.1，修改wan口的参数，手动获取地址。需要mac地址克隆以实际情况而定。也可以先微信网络中心服务平台解绑mac先。
 	用winscp把minieap文件传入/tmp:地址192.168.1.1，端口号22，用户名root，密码默认admin，修改了的话填修改了的
 	用putty连上路由器，地址192.168.1.1，端口号22，用户名root，密码默认admin，修改了的话填修改了的。接下来要用命令行操作，
 	cp /tmp/minieap /usr/bin/
