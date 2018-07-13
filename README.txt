@@ -24,7 +24,7 @@
 	chmod 777 /usr/bin/minieap
 	touch /etc/minieap.conf
 	ifconfig                    //这一步查看下之前的网络参数设置好了没。顺带看下WAN口的接口名。应该是br-wan
-	minieap -u 你的学号 -p 你的校园网密码（自己设置的那个，别总想不起来自己设置的密码就拿教务密码在上面蹭蹭蹭） -n br-wan --if-impl sockraw --module printer --module rjv3 --server default -b 2 -w
+	minieap -u 你的学号 -p 你的校园网密码（自己设置的那个，别总想不起来自己设置的密码就拿教务密码在上面蹭蹭蹭） -n br-wan --if-impl sockraw --module printer --module rjv3 --service default -b 2 -w
 	认证成功的话就可以加入开机启动了
 	加入开机启动 : 在/etc/rc.local 里面加入minieap一行，具体百度，vim不会用的可以用winscp编辑。
 	
