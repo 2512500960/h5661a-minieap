@@ -6,8 +6,8 @@ minieap 认证客户端二进制文件，用PandoraBox-Toolchain-ralink-for-mips
 PandoraBox-ralink-mt7628-mt7628an-evb-squashfs-sysupgrade-r1752-20151201 uboo,bootloader,换新固件前要刷写
 u-boot-pandorabox-mt7628an-evb-20150518 pandorabox固件
 hc5661a_eeprom.bin 如果出现无线不能使用需要到uboot的webrecovery界面刷写一次，建议第一次刷pandorabox的时候一并刷写了
-PandoraBox-Toolchain-ralink-for-mipsel_24kec+dsp-gcc-4.8-linaro_uClibc-0.9.33.2.tar pandorabox的toolchain
-hc5661a_eeprom.bin eemprom文件，在
+PandoraBox-Toolchain-ralink-for-mipsel_24kec+dsp-gcc-4.8-linaro_uClibc-0.9.33.2.tar pandorabox的toolchain,如果要自己编译，在这里下载http://downloads.openwrt.org.cn/PandoraBox/PandoraBox-Toolchain-ralink-for-mipsel_24kec%2Bdsp-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
+
 	本教程操作包括：
 准备工作：
 	1、自己想办法而将极路由1s连上网，去http://192.168.199.1/下找云插件页面里面安装开发者APP，云平台--路由器信息--高级设置，获得root权限
